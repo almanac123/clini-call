@@ -43,7 +43,7 @@ const Login = () => {
   return (
     <div className="bg-gray-50 min-h-screen flex items-center justify-center">
       {/* <!-- login container --> */}
-      <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center mt-20">
+      <div className="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-12 items-center mt-20">
         {/* <!-- form --> */}
         <div className="md:w-1/2 px-8 md:px-16">
           <h2 className="font-bold text-2xl text-[#002D74]">Login</h2>
@@ -101,7 +101,7 @@ const Login = () => {
         <div className="md:block hidden w-1/2">
           <img
             className="rounded-2xl"
-            src="https://res.cloudinary.com/dnqipwdsl/image/upload/v1674740143/pexels-tima-miroshnichenko-8376309_vsjsij.jpg"
+            src="https://res.cloudinary.com/dnqipwdsl/image/upload/v1674991717/male-nurse-treats-patient-s-arm-with-alcohol-cotton-wool-before-taking-blood-from-vein-doctor-patient-concept-vector-illustration_612079-1121-removebg-preview_wtybqs.png"
             alt="oops"
           />
         </div>

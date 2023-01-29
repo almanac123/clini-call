@@ -7,7 +7,7 @@ const Doctors = ({ name, email, contact, img, designation, address,consultation 
   const [search, setSearch] = useState("");
 
   return (
-    <div className=" md:max-w-[1440] py-24 relative overflow-x-auto shadow-md sm:rounded-lg">
+    <div className="bg-white md:max-w-[1440] py-24 relative overflow-x-auto shadow-md sm:rounded-lg">
       <div className="text-2xl my-2 mx-auto flex justify-center font-semibold">
         Doctors near you
       </div>
@@ -43,13 +43,13 @@ const Doctors = ({ name, email, contact, img, designation, address,consultation 
             id="table-search-users"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="block p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="block p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 "
             placeholder="Search for doctors"
           />
         </div>
       </div>
-      <table className="md:w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead className=" w-full text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <table className="md:w-full text-sm text-left text-gray-500 ">
+        <thead className=" w-full text-xs text-gray-700 uppercase bg-gray-50 ">
           <tr className="md:w-full">
             <th scope="col" className="px-20 py-3">
               Name

@@ -69,8 +69,8 @@ const SignUp = () => {
     }
   };
   return (
-    <div className="h-600 p-6  bg-gray-100 flex items-center justify-center">
-      <div className="container justify-center flex max-w-screen-lg mx-auto mt-10">
+    <div className=" py-4 bg-gray-100 flex items-center justify-center">
+    <div className="container mt-24 justify-center flex max-w-screen-lg mx-auto ">
         <div className="md:block hidden w-1/2 h-3/4 ">
           <img
             className="rounded-2xl object-cover"

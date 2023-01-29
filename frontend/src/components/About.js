@@ -21,16 +21,23 @@ const About = () => {
             locations.
           </p>
           <p className="text-lg mt-4">
-            We also have an online blood donation management system maintains
+            We also have a digitised blood bank which maintains
             the list of blood donors and also helps the recipients to track and
             search the right donor easily.
           </p>
+           <div className="flex gap-x-12">
 
           <button className="bg-indigo-700 text-white w-[200px] rounded-md font-medium md:mt-12 mt-8 my-6 mx-auto md:mx-0 py-3">
             <NavLink className="nav-link" to="/doctors">
-              Get Started
+              Find Doctors
             </NavLink>
           </button>
+          <button className="bg-indigo-700 text-white w-[200px] rounded-md font-medium md:mt-12 mt-8 my-6 mx-auto md:mx-0 py-3">
+            <NavLink className="nav-link" to="/login">
+              Donate/Receive Blood
+            </NavLink>
+          </button>
+           </div>
         </div>
       </div>
     </div>
